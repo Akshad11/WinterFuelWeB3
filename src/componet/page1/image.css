@@ -8,7 +8,7 @@
 .maindiv1 {
     display: flex;
     justify-content: center;
-    background-color: rgb(6, 2, 54)
+    background-color: rgb(0, 0, 0)
 }
 
 
@@ -73,7 +73,7 @@
 
 .maindiv2 {
     display: flex;
-    background-color: rgb(6, 2, 54);
+    background-color: rgb(0, 0, 0);
 
 }
 
@@ -104,7 +104,7 @@
 
 .maindiv3 {
     display: flex;
-    background-color: rgb(6, 2, 54);
+    background-color: rgb(0, 0, 0);
 }
 
 .img4 {
