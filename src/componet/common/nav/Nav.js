@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 import './nav.css'
 import { BsDiscord, BsTwitter } from "react-icons/bs";
+import { DynamicContextProvider, DynamicWidget } from '@dynamic-labs/sdk-react';
 
 
 class Nav extends Component {
@@ -45,8 +46,13 @@ class Nav extends Component {
 
                         </NavLink> </li>
                     <li>
-                        <NavLink to="/login" className="navbarBtn">
-                            <button>Start Questing</button>
+                        <NavLink className="navbarBtn">
+                            <button><DynamicContextProvider
+                                settings={{
+                                    environmentId: 'cf2ed575-790e-4904-a493-47e429ffe4e8',
+                                }}>
+                                <DynamicWidget />
+                            </DynamicContextProvider></button>
                         </NavLink>
                     </li>
 
