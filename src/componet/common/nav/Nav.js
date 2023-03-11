@@ -47,12 +47,14 @@ class Nav extends Component {
                         </NavLink> </li>
                     <li>
                         <NavLink className="navbarBtn">
-                            <button><DynamicContextProvider
-                                settings={{
-                                    environmentId: 'cf2ed575-790e-4904-a493-47e429ffe4e8',
-                                }}>
-                                <DynamicWidget />
-                            </DynamicContextProvider></button>
+                            <button>
+                                <DynamicContextProvider
+                                    settings={{
+                                        environmentId: 'cf2ed575-790e-4904-a493-47e429ffe4e8',
+                                    }}>
+                                    <DynamicWidget />
+                                </DynamicContextProvider>
+                            </button>
                         </NavLink>
                     </li>
 
