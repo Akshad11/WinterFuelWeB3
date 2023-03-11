@@ -1,0 +1,135 @@
+.homediv {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(6, 2, 54);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+
+}
+
+.Hometextdiv {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgEdiv1 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    transform: rotate(180deg);
+}
+
+.imgEdiv {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+
+.maintext2 {
+    text-align: center;
+
+    font-size: 20px;
+    color: white;
+}
+
+.maintext {
+    text-align: center;
+    margin: 10px;
+    font-size: 60px;
+    font-weight: bold;
+
+    color: white;
+}
+
+.but2 {
+
+
+    font-size: 20px;
+    margin-left: 25px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 12px;
+    background-color: rgb(32, 32, 188);
+    color: white;
+    border: 2px solid #ADC9FF;
+}
+
+.but1 {
+    font-size: 20px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 12px;
+    background-color: rgb(130, 130, 163);
+    color: white;
+    border: 2px solid #ADC9FF;
+}
+
+.butdiv {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.homediv1 {
+    width: 100%;
+    height: 600vh;
+    background-color: rgb(6, 2, 54);
+
+
+
+}
+
+@media (max-width:998px) {
+    .maintext {
+        font-size: 30px;
+    }
+
+    .maintext2 {
+        font-size: 20px;
+    }
+
+    img {
+        display: none;
+    }
+
+}
+
+@media (max-width:620px) {
+    .maintext {
+        font-size: 20px;
+    }
+
+    .maintext2 {
+        font-size: 10px;
+    }
+
+    .but1 {
+        font-size: 10px;
+
+    }
+
+    .but2 {
+        font-size: 10px;
+    }
+
+    img {
+        display: none;
+    }
+}
+
+
+/* page2 */

@@ -1,0 +1,26 @@
+/* Main div  */
+.logodiv {
+    width: 100%;
+
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px 10px;
+    color: white;
+}
+
+.logotext {
+    color: white;
+    text-decoration: none;
+}
+
+/* logo css */
+.logoname {
+    margin: 0px 0px 0px 20px;
+    font-size: 30px;
+    font-weight: 1000;
+}
