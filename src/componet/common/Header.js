@@ -9,7 +9,7 @@ function Header() {
             <div className='logodiv'>
 
                 <NavLink to="/" className="logotext">
-                    <h1 className='logoname'>WALL</h1>
+                    <h1 className='logoname'>WINTERFUEL</h1>
                 </NavLink>
 
 
