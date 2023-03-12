@@ -52,6 +52,13 @@
 
 }
 
+@media (max-width:1440px) {
+    .carddiv {
+        justify-content: center
+    }
+
+}
+
 @media (max-width:998px) {
     .topdiv {
         width: 88%;
