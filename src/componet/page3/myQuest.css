@@ -53,8 +53,10 @@
 }
 
 @media (max-width:1440px) {
-    .carddiv {
-        justify-content: center
+
+    .diveff {
+
+        margin-left: 30px;
     }
 
 }
